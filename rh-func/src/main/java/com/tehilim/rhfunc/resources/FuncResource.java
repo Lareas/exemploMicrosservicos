@@ -13,7 +13,7 @@ import com.tehilim.rhfunc.entities.Func;
 import com.tehilim.rhfunc.repositories.FuncRepository;
 
 @RestController
-@RequestMapping(name="funcs")
+@RequestMapping(name="/funcs")
 public class FuncResource {
 	
 	@Autowired
